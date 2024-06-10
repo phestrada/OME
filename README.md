@@ -2,7 +2,7 @@
 ## Modules
 ### DAMONITU v2.1.0
 
-[Damonitu]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Damonitu"
+![Damonitu](Damonitu.png?raw=true "Damonitu")
 
 Generates arpeggios and melodies based on euclidian ryhtmic patterns and randomizable, or fixed, melodic patterns. This module belongs to the heptatonic club.
 
