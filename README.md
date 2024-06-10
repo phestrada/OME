@@ -1,5 +1,6 @@
 # OME Plugins
-## Modules
+
+## Modules for VCV Rack 2
 ### DAMONITU v2.1.0
 
 ![Damonitu](Damonitu.png?raw=true "Damonitu")
