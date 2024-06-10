@@ -52,5 +52,15 @@ Generates arpeggios and melodies based on euclidian ryhtmic patterns and randomi
   * Chord.
     * Polyphonic chord output. The number of channels depends of chord knob value.
   * EOC.
-    * End of cycle trigger. 
+    * End of cycle trigger.
+
+### Changes
+
+| Date  | Changes |
+| ------------- | ------------- |
+| 06/09/2024  | First Version  |
+
+Enjoy!
+
+ 
 
