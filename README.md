@@ -1,7 +1,8 @@
 # OME Plugins
 
-## Modules for VCV Rack 2
-### DAMONITU v2.1.0
+## Modules OME for VCV Rack 2
+### OME 2.1.0
+#### DAMONITU
 
 ![Damonitu](Damonitu.png?raw=true "Damonitu")
 
@@ -54,12 +55,20 @@ Generates arpeggios and melodies based on euclidian ryhtmic patterns and randomi
     * Polyphonic chord output. The number of channels depends of chord knob value.
   * EOC.
     * End of cycle trigger.
+### OME 2.2.0
+#### DAMONITU
+* Fixed buggy (with crashes) CV and trims handling.
+* Density knob behavior change. Now there are no random values, the knob value (or CV+Trim) is applied directy over number of notes in the pattern.
+* Added more melodic patterns.
+* The display widget uses <code>LedDisplay</code> included in the VCV Rack components library.
 
 ### Changes
 
 | Date  | Changes |
 | ------------- | ------------- |
-| 06/09/2024  | First Version  |
+| 06/09/2024  | Damonitu 2.1.0 - First Version  |
+| 06/26/2024  | Damonitu 2.2.0 - Some functionality changes and fixes  |
+| 06/26/2024  | Tezca 2.2.0 - First version  |
 
 Enjoy!
 
