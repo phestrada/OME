@@ -1,10 +1,7 @@
-# OME Plugins
+# OME Plugins for VCV Rack 2
 
-## Modules OME for VCV Rack 2
-### OME 2.1.0
-#### DAMONITU
-
-![Damonitu](Damonitu.png?raw=true "Damonitu")
+## OME 2.1.0
+### DAMONITU
 
 Generates arpeggios and melodies based on euclidian ryhtmic patterns and randomizable, or fixed, melodic patterns. This module belongs to the heptatonic club.
 
@@ -55,14 +52,45 @@ Generates arpeggios and melodies based on euclidian ryhtmic patterns and randomi
     * Polyphonic chord output. The number of channels depends of chord knob value.
   * EOC.
     * End of cycle trigger.
-### OME 2.2.0
-#### DAMONITU
-* Fixed buggy (with crashes) CV and trims handling.
-* Density knob behavior change. Now there are no random values, the knob value (or CV+Trim) is applied directy over number of notes in the pattern.
-* Added more melodic patterns.
-* The display widget uses <code>LedDisplay</code> included in the VCV Rack components library.
+## OME 2.2.0
+### DAMONITU
+![Damonitu](Damonitu220.png?raw=true "Damonitu")
+* Changes
+  * Fixed buggy (with crashes) CV and trims handling.
+  * Density knob behavior change. Now there are no random values, the knob value (or CV+Trim) is applied directy over number of notes in the pattern.
+  * Added more melodic patterns.
+  * The display widget uses <code>LedDisplay</code> included in the VCV Rack components library.
+### TEZCA
+![Tezca](Tezca220.png?raw=true "Tezca")
 
-### Changes
+Generates chord progressions using a simplistic implementation of Béla Bartók's axis system. Major scale, seven modes. [See: Axis System](https://ib-aural.com/bartoks-axis-theory/)
+
+**WARNING!**: The results could be unfamiliar and rare ;)
+
+* Input
+  * 1v/oct. Monophonic input. Set the root note. If not connected, C4 is used.
+* Knobs
+  * Steps. Number of pulses before trigger transitions.
+  * Chord. Number of notes in the chord. Only has effect if default voicind is used.
+  * Voicing. Default, rootless, open and three notes.
+  * Bass. Low note inversion.
+  * Gate length. Set the gate pulse length.
+* Dices (from left to right)
+  * From tonic transition. Set the probability threshold to go to dominant (value) or subdominant (100-value) compass.
+  * From subdominant transition. Set the probability threshold to go to tonic (value) or dominant (100-value) compass.
+  * From dominant transition. Set the probability threshold to go to tonic (value) or subdominant (100-value) compass.
+* Outputs
+  * Chord. Polyphonic output with all chord notes.
+  * Bass. Monophonic output with the lower note, an octave down.
+  * Scale. Polyphonic output with all scale notes.
+  * Trigger. Triggered on every clock pulse.
+  * Gate. Triggered on every clock pulse.
+* Settings
+  * Mode transition. It has two modes.
+    * Gentle. Transitions are made using "mode brightness" order. The order used is, from bright to dark: Lydian, Ionian, Mixolydian, Dorian, Aeolian, Phrygian and Locrian.
+    * Rude. Random transitions. 
+
+## Versions
 
 | Date  | Changes |
 | ------------- | ------------- |
