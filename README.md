@@ -90,6 +90,40 @@ Generates chord progressions using a simplistic implementation of Béla Bartók'
     * Gentle. Transitions are made using "mode brightness" order. The order used is, from bright to dark: Lydian, Ionian, Mixolydian, Dorian, Aeolian, Phrygian and Locrian.
     * Rude. Random transitions. 
 
+## OME 2.3.0
+### MAŜINO
+![Maŝino](Masino230.png?raw=true "Tezca")
+Yet another arpeggiator with useful features.
+* Inputs
+  * 1v/o. Polyphonic 1v/octave input.
+  * Clck. Clock.
+  * Rst. Reset.
+* Knobs
+  * Rythm
+    *  UNF. Uniform.
+    *  EUC. Euclidean.
+    *  PRM. Prime numbers.
+    *  WBE. Weak beats.
+    *  SBE. Strong beats.
+    *  RND. Random.
+  * Melody
+    * UPP. Upwards according to the order of the notes played.
+    * DWN. Downwards according to the order of the notes played.
+    * TCE. Plays the notes from the ends towards the center according to the order of the notes played.
+    * FCE. Playy the notes from the center to the ends according to the order of the notes played.
+    * RND. Random.
+  * Octaves. Set the arpeggio octaves scope.
+  * Density. Set the number of notes to be played. It doesn't affect PRM rythm setting. 
+  * Gate Length. 
+* Outputs
+  * 1v/o. Monophonic 1v/octave output.
+  * Gate.
+  * Trigger.
+* Settings.
+  * Pulses per quarter. Sets the clock pulse subdivision. Values are 2,3,4,5 and 6 PPQN.
+  * Pulses per quarter factor. Multiply PPQN value. Values are X1, X2 and X3.
+### TEZCA
+GUI cosmetic fixes. 
 ## Versions
 
 | Date  | Changes |
@@ -97,6 +131,9 @@ Generates chord progressions using a simplistic implementation of Béla Bartók'
 | 06/09/2024  | Damonitu 2.1.0 - First Version  |
 | 06/26/2024  | Damonitu 2.2.0 - Some functionality changes and fixes  |
 | 06/26/2024  | Tezca 2.2.0 - First version  |
+| 07/12/2024  | Tezca 2.3.0 - Cosmetic changes  |
+| 07/12/2024  | Maŝino 2.3.0 - First version  |
+
 
 Enjoy!
 
