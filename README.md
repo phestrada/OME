@@ -93,12 +93,14 @@ Generates chord progressions using a simplistic implementation of Béla Bartók'
 ## OME 2.3.0
 ### MAŜINO
 ![Maŝino](Masino230.png?raw=true "Tezca")
+
 Yet another arpeggiator with useful features.
 * Inputs
   * 1v/o. Polyphonic 1v/octave input.
   * Clck. Clock.
   * Rst. Reset.
 * Knobs
+  * All knobs have an 0/+5v input to modulate the values. The input voltage values are quantized according the parameter range. 
   * Rythm
     *  UNF. Uniform.
     *  EUC. Euclidean.
@@ -122,6 +124,11 @@ Yet another arpeggiator with useful features.
 * Settings.
   * Pulses per quarter. Sets the clock pulse subdivision. Values are 2,3,4,5 and 6 PPQN.
   * Pulses per quarter factor. Multiply PPQN value. Values are X1, X2 and X3.
+ 
+**Important:**
+
+**Be aware the modules chain length. Polyphonic 1v/oct and clock inputs sources should have the same length. Otherwise there may be offsets, desynchronization and undesirable results.**
+
 ### TEZCA
 GUI cosmetic fixes. 
 ## Versions
