@@ -105,14 +105,14 @@ Yet another arpeggiator with useful features.
     *  UNF. Uniform.
     *  EUC. Euclidean.
     *  PRM. Prime numbers.
-    *  WBE. Weak beats.
-    *  SBE. Strong beats.
+    *  WBE. Weak beats. Usually even pulses.
+    *  SBE. Strong beats. Usually odd pulses.
     *  RND. Random.
   * Melody
     * UPP. Upwards according to the order of the notes played.
     * DWN. Downwards according to the order of the notes played.
     * TCE. Plays the notes from the ends towards the center according to the order of the notes played.
-    * FCE. Playy the notes from the center to the ends according to the order of the notes played.
+    * FCE. Plays the notes from the center to the ends according to the order of the notes played.
     * RND. Random.
   * Octaves. Set the arpeggio octaves scope.
   * Density. Set the number of notes to be played. It doesn't affect PRM rythm setting. 
