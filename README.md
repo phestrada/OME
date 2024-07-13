@@ -127,8 +127,8 @@ Yet another arpeggiator with useful features.
  
 **Important:**
 
-**Be aware the modules chain length. Polyphonic 1v/oct and clock inputs sources should have the same length. Otherwise there may be offsets, desynchronization and undesirable results.**
-
+**Be aware the modules chain length. Polyphonic 1v/oct and clock inputs sources should have the same length. Otherwise there may be offsets, desynchronization and undesirable results.** [See: Timing](https://vcvrack.com/manual/VoltageStandards#Timing
+)
 ### TEZCA
 GUI cosmetic fixes. 
 ## Versions
